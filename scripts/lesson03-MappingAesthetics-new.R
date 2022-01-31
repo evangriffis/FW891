@@ -13,7 +13,7 @@
     labs( title="Humidity vs Temperature",
           subtitle="Lansing, MI -- 2016",
           x = "Average Temperatures (Fahrenheit)",
-          y = "Relative Humidity") +
+          y = "Relative Humidity ("\u26C5")") +
     scale_x_continuous( breaks = seq(from=10, to=80, by=10) ) +
     theme_bw() +
     theme( axis.text.x=element_text(angle=90, vjust=0.5) );
@@ -201,7 +201,7 @@ x = "Average Temperatures (Fahrenheit)", y = "Relative Humidity") +
     labs( title="Temperature, Precipitation, Wind Speed and Direction",
           subtitle="Lansing, MI -- 2016",
           x = "Temp Departure from Average",
-          y = "Wind Speed",
+          y = "Wind Speed \U1F4A9",
           size = "Precipitation",
           color = "Wind Direction") +
     scale_x_continuous( breaks = seq(from=-20, to=30, by=5) ) +
